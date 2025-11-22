@@ -76,25 +76,25 @@ Para ver el mapa de componentes, jerarquía de proveedores y flujo de autenticac
 * Node.js v20+
 * NPM
 
-### 1. Clonar el repositorio
 ```bash
+1. Clonar el repositorio
 git clone [https://github.com/pf-henry-g3/front.git](https://github.com/pf-henry-g3/front.git)
 cd front
-2. Instalar dependencias
-Bash
 
+2. Instalar dependencias
 npm install
+
 3. Configurar Variables de Entorno
 Crea un archivo .env.local en la raíz y configura la conexión con el Backend y Auth0:
 
-Bash
-
 NEXT_PUBLIC_API_URL=http://localhost:3000 # O tu URL de producción
 # Credenciales de Auth0 (Client ID, Domain, Secrets)
-4. Iniciar Servidor de Desarrollo
-Bash
 
-npm run dev
+4. Build
+npm run build
+
+5. Iniciar servidor
+npm run start
 La aplicación estará disponible en http://localhost:3000.
 ```
 
